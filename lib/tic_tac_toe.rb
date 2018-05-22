@@ -112,7 +112,7 @@ def won?(board)
     if draw?(board) == TRUE
       puts "It's a draw"
     else 
-      puts "Congratulations! #{winner(board)} wins!"
+      puts "Congratulations #{winner(board)}!"
     end
   end
   
