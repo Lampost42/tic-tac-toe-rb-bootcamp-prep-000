@@ -104,3 +104,6 @@ def won?(board)
       return board[won?(board)[0]]
     end
   end
+  
+  def play(board)
+    until won?(board) != FALSE
