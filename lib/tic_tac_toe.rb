@@ -110,7 +110,7 @@ def won?(board)
       turn(board)
     end
     if draw?(board) == TRUE
-      puts "It's a draw"
+      puts "Cat's Game!"
     else 
       puts "Congratulations #{winner(board)}!"
     end
